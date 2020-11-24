@@ -1,0 +1,37 @@
+.ingredients {
+  text-align: center;
+  background-image: url(../images/ingredients.png);
+  height: 785px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ingredients__content {
+  background: rgba(0, 0, 0, 0.5);
+  width: 409px;
+  margin-right: 71px;
+}
+.ingredients h3 {
+  font-size: 36px;
+
+  color: #ffffff;
+}
+.ingredients__text {
+  color: #ffffff;
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  text-align: center;
+}
+.ingredients__spices {
+  display: flex;
+  justify-content: space-around;
+  padding: 82px 0;
+}
+.ingredients__spices img {
+  text-align: center;
+  max-width: 103px;
+  max-height: 103px;
+  border-radius: 100px;
+  border: 3px solid #2e3237;
+  box-shadow: 0 0 7px #666;
+}

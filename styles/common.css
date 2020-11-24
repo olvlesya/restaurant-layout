@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Yeseva One";
+  src: url("../fonts/font__Yesena/YesevaOne-Regular.ttf");
+}
+@font-face {
+  font-family: "Gentium Book Basic";
+  src: url("../fonts/font__gentium/GentiumBookBasic-Regular.ttf");
+}
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/font__lato/Lato-Regular.ttf.ttf");
+}
+@font-face {
+  font-family: "Open-Sans";
+  src: url("../fonts/open_sans/OpenSans-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  width: 1600px;
+  margin: 0 auto;
+  font-family: "Yeseva One";
+}
+@media (max-width: 1600px) {
+  body {
+    width: 100%;
+  }
+}
+
+.section-background::before {
+  content: "";
+  background-image: url(../images/section__background.png);
+  height: 629px;
+  z-index: -1;
+  position: absolute;
+  opacity: 0.02;
+  width: 100%;
+}
+.divider {
+  text-align: center;
+  margin: 20px;
+}

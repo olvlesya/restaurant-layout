@@ -1,0 +1,21 @@
+.about {
+  margin: auto;
+  width: 1200px;
+  text-align: center;
+  display: flex;
+}
+.about > div:first-child {
+  width: 409px;
+}
+.about__heading {
+  color: #cc9900;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 60px;
+}
+.about__text {
+  font-family: 'Lato-Regular';
+  font-size: 16px;
+  color: #4c4c4c;
+  height: 111px;
+}

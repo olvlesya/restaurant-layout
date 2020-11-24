@@ -1,0 +1,59 @@
+.main-header {
+  background-image: url(../images/background_header.png);
+  height: 750px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 75%;
+  padding-top: 17px;
+  align-items: center;
+}
+.navigation__menu a {
+  color: white;
+  font-family: "Gentium Book Basic";
+  font-size: 21px;
+}
+.navigation__menu i {
+  color: #dab33e;
+  font-size: 21px;
+}
+.navigation__menu {
+  width: 710px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation__logo {
+  font-weight: bold;
+  color: white;
+  font-size: 46px;
+}
+.header__callout-text {
+  color: white;
+  text-align: center;
+  font-size: 90px;
+  width: 960px;
+  margin: auto;
+}
+
+.header__buttons {
+  text-align: center;
+}
+.header__buttons button {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #000;
+  font-family: "Lato-Regular";
+  font-size: 18px;
+  width: 229px;
+  height: 58px;
+  cursor: pointer;
+  transition: all 400ms;
+  margin: 0 5px;
+}
+.header__buttons button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid #fff;
+}

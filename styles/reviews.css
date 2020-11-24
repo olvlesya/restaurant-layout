@@ -1,0 +1,24 @@
+.reviews__background {
+  background-image: url(../images/reviews.jpg);
+  height: 761px;
+  padding: 33px;
+  background-size: cover;
+}
+.section__reviews {
+  width: 771px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #dde0df;
+  font-size: 25px;
+  text-align: center;
+  width: 622px;
+  font-family: 'Gentium Book Basic';
+  padding: 52px 38px;
+}
+
+.section__reviews h3 {
+  color: #ffffff;
+  font-size: 36px;
+  font-family: 'Yeseva One';
+  text-align: center;
+}

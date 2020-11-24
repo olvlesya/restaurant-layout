@@ -1,0 +1,58 @@
+.menu::before {
+  height: 1283px;
+}
+.menu__content {
+  padding-top: 53px;
+  width: 1058px;
+  margin: 0 auto 73px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.menu__content > div {
+  width: 458px;
+}
+.menu__content p {
+  color: #111;
+  font-size: 21px;
+  text-align: justify;
+  font-family: 'Lato-Regular';
+}
+.menu__content h3 {
+  color: #cc9900;
+  font-size: 36px;
+  font-family: 'Yeseva One';
+  width: 150px;
+  margin: 0 auto;
+}
+.menu__content h5 {
+  font-family: 'Yeseva One';
+  color: #c89f2d;
+  font-size: 21px;
+}
+.menu__content hr {
+  border-color: #c89f2d;
+}
+.menu__dish {
+  padding: 6px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.menu__special {
+  border: 1px solid #c89f2d;
+}
+.menu__special-flag {
+  position: absolute;
+  right: 0;
+  top: -23px;
+  width: 70px;
+  height: 23px;
+  color: #fff;
+  background-color: #c89f2d;
+  font-size: 15px;
+  line-height: 23px;
+}
+.menu__h5 {
+  display: flex;
+  justify-content: space-between;
+}
