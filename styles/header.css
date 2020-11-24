@@ -14,6 +14,8 @@
   color: white;
   font-family: "Gentium Book Basic";
   font-size: 21px;
+  display: block;
+  margin-right: 10px;
 }
 .navigation__menu i {
   color: #dab33e;
@@ -23,6 +25,7 @@
   width: 710px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .navigation__logo {

@@ -24,38 +24,43 @@
   background-color: #cc9900;
   font-size: 16px;
   color: #ffffff;
-  font-family: 'Open-Sans';
+  font-family: "Open-Sans";
   height: 37px;
   width: 201px;
+  cursor: pointer;
+  transition: transform 200ms;
+}
+.book-now button:hover {
+  transform: scale(1.05);
 }
 .reservations__text {
   color: #cc9900;
   font-size: 36px;
-  font-family: 'Yeseva One';
+  font-family: "Yeseva One";
   text-align: center;
 }
 .reservations__text p {
   color: #4c4c4c;
   font-size: 16px;
-  font-family: 'Lato-Regular';
+  font-family: "Lato-Regular";
   text-align: center;
 }
 .reservations input,
 .reservations select {
-  font-family: 'Open-Sans';
+  font-family: "Open-Sans";
   color: #7c7c7c;
   font-size: 16px;
   text-align: left;
   border: 1px solid #c9a131;
   box-sizing: border-box;
   height: 37px;
-  padding: 0;
+  padding: 0 10px;
 }
 .reservations label {
   font-size: 14px;
   text-align: left;
   color: #c9a131;
-  font-family: 'Open-Sans';
+  font-family: "Open-Sans";
 }
 .reservations__tables {
   display: grid;
